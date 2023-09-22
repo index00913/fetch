@@ -28,13 +28,14 @@ section {
   margin: 10vh auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 section article {
-  width: 32%;
+  width: 30%;
   padding: 1rem;
   background: #fff;
   margin-bottom: 3rem;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
 }
 section article .pic {
   width: 100%;
