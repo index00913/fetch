@@ -58,4 +58,24 @@ section article p {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 789px) {
+  section {
+    margin: 8vh auto;
+  }
+  section article {
+    width: 46%;
+  }
+  section article .pic {
+    height: 20vw;
+  }
+}
+@media screen and (max-width: 486px) {
+  section article {
+    width: 100%;
+  }
+  section article .pic {
+    height: 60vw;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
